@@ -10,7 +10,7 @@ public class MainCondition3 {
     int age = -3; // Code avec erreur
 
     //-------------------------------
-    if (age < 0 || age >  120)
+    if (age < 0 || age > 120)
     {
         System.out.println("Age non valide");
     }  else
