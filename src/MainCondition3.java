@@ -7,7 +7,7 @@ Décrire les étapes de votre algorithme creately.com
 public class MainCondition3 {
     public static void main(String[] args) {
     //DEBUT
-    int age = -3; // Code avec erreur
+    int age = -3; // Code sans erreur :: voir diag.md pour comprendre
 
     //-------------------------------
     if (age < 0 || age > 120)
