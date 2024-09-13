@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 graph TD
     A[Début] --> B[Entrée Âge]
     B --> C{Âge < 0 ou Âge > 120?}
@@ -12,4 +12,4 @@ graph TD
     F --> J
     H --> J
     I --> J
-'''
+```
