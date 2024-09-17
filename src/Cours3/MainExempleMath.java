@@ -1,3 +1,5 @@
+package Cours3;
+
 public class MainExempleMath {
     public static void main(String[] args) {
 

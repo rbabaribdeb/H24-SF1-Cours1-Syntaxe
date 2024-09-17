@@ -1,3 +1,5 @@
+package Cours1;
+
 import java.util.Scanner; // cherche la classe depuis la libraire
 public class ExercicePermuter {
     public static void main(String[] args) {

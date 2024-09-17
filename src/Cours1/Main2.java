@@ -1,3 +1,4 @@
+package Cours1;
 
 // 2 Exemple declaration de variables sans initialisation
 public class Main2 {

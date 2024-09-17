@@ -1,3 +1,4 @@
+package Cours1;
 
 // 4 Exemple Affectation
 public class Main4 {

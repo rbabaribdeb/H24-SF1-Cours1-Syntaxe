@@ -1,31 +1,29 @@
+package Cours2;
+
 /*
 Afficher à quelle catégorie (enfant/adolescent/adulte)
 de personnes appartient un individu en fonctionde son âge.
 L’âge est saisi au clavier.
 Décrire les étapes de votre algorithme creately.com
  */
-public class MainCondition1 {
+public class MainCondition2 {
     public static void main(String[] args) {
     //DEBUT
-    int age = -3;
-    boolean estEnfant = age < 12 && age > 0;
-    boolean estAdo = age >= 12 && age <= 18;
-    boolean estAdulte = age >= 18 && age <= 125; // ***
+    int age = -3; // Code avec erreur
+
     //-------------------------------
-        if (estEnfant)
+        if (age > 0 && age < 12)
         {
             System.out.println("Bonjour Enfant");
         }
-        if (estAdo)
+        else if (age < 18)
         {
             System.out.println("Bonjour Ado");
         }
-        if (estAdulte)
+        else
         {
             System.out.println("Bonjour adulte");
         }
-
-
 //FIN
     }
 

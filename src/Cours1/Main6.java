@@ -1,4 +1,4 @@
-
+package Cours1;
 // 6 - Reprendre l'exemple de calcul de rayon
 
 public class Main6 {

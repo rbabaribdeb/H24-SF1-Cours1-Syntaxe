@@ -1,3 +1,5 @@
+package Cours3;
+
 import java.util.Scanner;
 public class MainExempleCharDirectionSwitch {
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class MainExempleCharDirectionSwitch {
         cDirection = chaine.charAt(0);
         switch (cDirection)
         {
-            case 'd':
+            case 'd','D':
                 System.out.println("droite ");
                 break;
             case 'g':

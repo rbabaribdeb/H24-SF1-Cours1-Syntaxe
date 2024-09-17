@@ -1,4 +1,4 @@
-
+package Cours1;
 // 5 Ecrire un programme qui crée un variable var1 et var2 de type int
 // iniitialisés respectivement avec les valeurs 5 et 13
 // Créer une troisieme variable somme de type double
