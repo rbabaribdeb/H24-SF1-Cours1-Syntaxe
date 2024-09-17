@@ -1,20 +1,16 @@
 import java.util.Scanner;
-
 public class MainExempleCharDirectionSwitch {
-
     public static void main(String[] args) {
         //DÉBUT
         char cDirection;
         String chaine;
-        //---------------------------------
-        // Saisir
+        //----------------------Saisir
         Scanner clavier = new Scanner(System.in);
         System.out.println("Donner la direction: d g h b : ");
         chaine = clavier.nextLine();
         System.out.println("vous avez saisis : " + chaine);
         System.out.println("La premiere lettre est " + chaine.charAt(0));
         cDirection = chaine.charAt(0);
-
         switch (cDirection)
         {
             case 'd':
