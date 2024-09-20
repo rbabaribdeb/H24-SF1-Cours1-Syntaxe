@@ -46,7 +46,7 @@ public class MainExempleCharDirectionSwitch {
             System.out.println("bas");
         }else
         {
-            System.out .println("Erreur : ce n'est pas une direction");
+            System.out .println(" Erreur : ce n'est pas une direction");
         }
 */
 
