@@ -1,3 +1,5 @@
+package z_AideTp;
+
 import java.util.Scanner;
 public class ExempleMenu1 {
 

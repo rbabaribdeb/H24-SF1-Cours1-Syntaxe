@@ -8,7 +8,7 @@ public class ExempleMaxEtape5 {
         //-------------------DEBUT
         Scanner sc = new Scanner(System.in);
         int nombre;
-        int max = 0;
+        int maximum = 0;
         int position = 0 ;
         int positionMax =0;
         do {
@@ -16,17 +16,17 @@ public class ExempleMaxEtape5 {
             nombre = sc.nextInt();
             System.out.println("vous avec saisi : " + nombre);
             position = position +1;
-            if (nombre > max)
+            if (nombre > maximum)
             {
-                System.out.println( nombre + " est sup a " + max);
-                max = nombre;
+                System.out.println( nombre + " est sup a " + maximum);
+                maximum = nombre;
                 positionMax = position;
             }else
             {
-                System.out.println( nombre + " est inf a " + max);
+                System.out.println( nombre + " est inf a " + maximum);
             }
         }while (nombre != 0);
-        System.out.println("Max : " + max);
+        System.out.println("Max : " + maximum);
         System.out.println("PositionMax : " + positionMax);
         //------------------- FIN
     }

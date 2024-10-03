@@ -1,3 +1,5 @@
+package z_AideTp;
+
 import java.util.Scanner;
 public class ExempleMenu2 {
 
@@ -8,23 +10,24 @@ public class ExempleMenu2 {
     public static final String YELLOW = "\u001B[33m";
     public static final String BLUE = "\u001B[34m";
 
+    public static final String MENU1 =
+            BLUE  + "┌─────────────────────────┐" + RESET + "\n" +
+            BLUE  + "│       MENU PRINCIPAL    │" + RESET+ "\n" +
+            BLUE  + "├─────────────────────────┤" + RESET+ "\n" +
+            GREEN + "│ 1. Option 1             │" + RESET+ "\n" +
+            GREEN + "│ 2. Option 2             │" + RESET+ "\n" +
+            GREEN + "│ 3. Option 3             │" + RESET+ "\n" +
+            RED   + "│ 0. Quitter              │" + RESET+ "\n" +
+            BLUE  + "└─────────────────────────┘" + RESET+ "\n" +
+            YELLOW + "Entrez votre choix: " + RESET;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choix;
 
         do {
-            System.out.println(BLUE  + "┌─────────────────────────┐" + RESET);
-            System.out.println(BLUE  + "│       MENU PRINCIPAL    │" + RESET);
-            System.out.println(BLUE  + "├─────────────────────────┤" + RESET);
-            System.out.println(GREEN + "│ 1. Option 1             │" + RESET);
-            System.out.println(GREEN + "│ 2. Option 2             │" + RESET);
-            System.out.println(GREEN + "│ 3. Option 3             │" + RESET);
-            System.out.println(RED   + "│ 0. Quitter              │" + RESET);
-            System.out.println(BLUE  + "└─────────────────────────┘" + RESET);
-            System.out.print(YELLOW + "Entrez votre choix: " + RESET);
-
+            System.out.println(MENU1);
             choix = scanner.nextInt();
-
             switch (choix) {
                 case 1:
                     System.out.println(GREEN + "Vous avez choisi l'Option 1." + RESET);
