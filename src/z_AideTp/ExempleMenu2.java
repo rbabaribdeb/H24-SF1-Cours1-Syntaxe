@@ -87,3 +87,24 @@ public class ExempleMenu2 {
         scanner.close();
     }
 }
+
+
+
+/*
+Menuprincipal
+    Choix P : passage
+        Choix(1210)
+        ChoixRabais
+        Facture
+    Choix Soiree Fds
+        Choix(4 choix)
+        Facture
+    Choix Navette
+        NombreNavettes
+        Facture
+
+
+*
+*
+*
+* */
