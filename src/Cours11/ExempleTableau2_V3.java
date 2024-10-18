@@ -2,7 +2,7 @@ package Cours11;
 
 import java.util.Scanner;
 
-public class ExempleTableau2_V3 { // On utilise des tableau à la place
+public class ExempleTableau2_V3 { // On utilise une boucle
     public static void main(String[] args) {
         // Demander de saisir n ou 5 valeurs(notes) int
         Scanner sc = new Scanner(System.in);

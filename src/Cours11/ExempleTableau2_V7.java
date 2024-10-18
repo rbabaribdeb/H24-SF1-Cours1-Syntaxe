@@ -2,7 +2,7 @@ package Cours11;
 
 import java.util.Scanner;
 
-public class ExempleTableau2_V6 { // calcul somme moyenne
+public class ExempleTableau2_V7 { // calcul du max
     public static void main(String[] args) {
         // Demander de saisir n ou 5 valeurs(notes) int
         Scanner sc = new Scanner(System.in);
@@ -37,6 +37,18 @@ public class ExempleTableau2_V6 { // calcul somme moyenne
         System.out.println("somme = " + somme + " moyenne = " + moyenne);
 
         // calcul du max ?
+        double max = notes[0];
+        for (int i = 1; i < notes.length; i++)
+        {
+            if (notes[i] > max)
+            {
+                max = notes[i];
+            }
+        }
+        System.out.println("max = " + max);
+
+
+
 
     }
 }
