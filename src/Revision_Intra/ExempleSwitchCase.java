@@ -7,7 +7,7 @@ public class ExempleSwitchCase {
        // Utiliser break pour éviter l'exécution des case suivants.
        // Ne pas utiliser break si tu souhaites exécuter plusieurs blocs de code consécutivement.
 
-        // Qu'affiche ce code ?
+        // Qu'affiche ce code pour les valeurs 1,2,3 et 4 ?
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entrez un nombre entre 1 et 4 : ");
