@@ -32,6 +32,14 @@ public class DivisionEntiere {
 
         // Division flottante
         double divisionFlottante = (double) a / b; // Résultat : 2.3333
+        double divisionNonFlottante = (double) (a / b); // Résultat : 2.0
         System.out.println("Division flottante : " + divisionFlottante);
+        System.out.println("Division non Flottante : " + divisionNonFlottante);
+
+        /*
+        Division entière : 2
+        Division flottante : 2.3333333333333335
+        Division non Flottante : 2.0
+         */
     }
 }
