@@ -4,7 +4,7 @@ public class Exercice7_Tri_Bulle_V1 {
 
     public static void main(String[] args) {
 
-        int[] tab1 = {0,2,5,55,26,2,57,4,1,5,5,4,6,64,0,0,0,0,0,1,2,2};
+        int[] tab1 = {0,2,5,55,26,2,57,4,1,5,5,4,6,64,0,0,0,0,0,1,222,-2};
 
         //Affichage Avant
         System.out.print("tabAvantTri = {");
@@ -14,10 +14,17 @@ public class Exercice7_Tri_Bulle_V1 {
         }
         System.out.println(tab1[tab1.length-1] + "}");
 
-
-
-
-
+        int temporire =0;
+        for (int j = 0; j < tab1.length-1; j++) {
+            for (int i = 0; i < tab1.length - 1; i++) {
+                if (tab1[i] >= tab1[i + 1]) {
+                    //Echanger
+                    temporire = tab1[i];
+                    tab1[i] = tab1[i + 1];
+                    tab1[i + 1] = temporire;
+                }
+            }
+        }
 
 
 
