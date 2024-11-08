@@ -12,6 +12,14 @@ public class Exemple2_surfaces {
         System.out.println("La circonference pour R= "+rayon1+" est: "+ circonference) ;
         System.out.println("La surface pour R= "+surface) ;
         //---------------
+        AfficherMenu();
+        calculerSurface(rayon1);
+        calculerSurface(rayon2);
+        calculerSurface(rayon3);
+        calculerSurface(rayon4);
+        calculerSurface(rayon5);
+
+        //-------------
         circonference=2*rayon2*3.14 ;
         surface= rayon2*rayon2*3.14 ;
         System.out.println("La circonference pour R= "+rayon2+" est: "+ circonference) ;
@@ -33,10 +41,42 @@ public class Exemple2_surfaces {
 
 
     }
-    public static void calculer(double rayon)
+
+
+    /**
+     * Méthode calculerSurface avec parametre rayon et ne retourne rien (void)
+     * calculerSurface(rayon1); // de cette maniere on appelle la méthode depuis le main ...
+     * @param rayon
+     */
+    public static void calculerSurface(double rayon)
     {
-        // faire ...
+        double surface= rayon*rayon*3.14 ;
+        System.out.println("La surface pour R= "+surface) ;
+    }
+
+    /**
+     * Méthode calculerCirconference avec parametre rayon et ne retourne rien (void)
+     * @param rayon
+     */
+    public static void calculerCirconference(double rayon)
+    {
+        double circonference=2*rayon*3.14 ;
+        System.out.println("La circonference pour R= "+rayon+" est: "+ circonference) ;
+    }
+
+    /**
+     * Methode Sans parametre sans retour
+     */
+    public static void AfficherMenu()
+    {
+        System.out.println("-------------------------------");
+        System.out.println("-------------------------------");
+        System.out.println("--------       CALCUL     ------");
+        System.out.println("-------------------------------");
+        System.out.println("-------------------------------");
 
     }
+
+
 
 }
