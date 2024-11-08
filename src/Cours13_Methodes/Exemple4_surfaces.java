@@ -1,25 +1,23 @@
 package Cours13_Methodes;
 
-public class Exemple2_surfaces {
+public class Exemple4_surfaces {
     public static void main(String[] args) {
-
-        double rayon1=1, rayon2=2,rayon3=3,rayon4=4,rayon5=5;
-        double circonference;
-        double surface;
-        //-------------
+        double [] rayons = {1,2,3,4,5};
         AfficherMenu();
-        calculerSurface(rayon1);
-        calculerCirconference(rayon1);
-        calculerSurface(rayon2);
-        calculerCirconference(rayon2);
-        calculerSurface(rayon3);
-        calculerCirconference(rayon3);
-        calculerSurface(rayon4);
-        calculerCirconference(rayon4);
-        calculerSurface(rayon5);
-        calculerCirconference(rayon5);
+        for(int i=0; i<rayons.length; i++)
+        {calculerSurfaceEtCirconference(rayons[i]);}
     }
 
+    /**
+     * Méthode calculerSurfaceEtCirconference avec parametre rayon et ne retourne rien (void)
+     * calculerSurfaceEtCirconference(rayon1); // de cette maniere on appelle la méthode depuis le main ...
+     * @param rayon
+     */
+    public static void calculerSurfaceEtCirconference(double rayon)
+    {
+        calculerSurface(rayon);
+        calculerCirconference(rayon);
+    }
     /**
      * Méthode calculerSurface avec parametre rayon et ne retourne rien (void)
      * calculerSurface(rayon1); // de cette maniere on appelle la méthode depuis le main ...
