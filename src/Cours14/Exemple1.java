@@ -5,9 +5,20 @@ public class Exemple1 {
         // Ecrire une méthode qui recupere un srting et retourne un tableau de char
         char [] tabChar= decoupeString("Bonjour");
         // Ecrire une methode qui calcule le nombre d evoyelle dans un tableau de char
-        System.out.println(nbrVoyelleDansChar(tabChar));
+        System.out.println("nombre de voyelles : " + nbrVoyelleDansChar(tabChar));
+        // methode qui inverse un string
+        System.out.println(inverserString("ChaineAInverser..."));
     }
 
+    public static String inverserString(String chaine)
+    {
+        String inverseChaine = "";
+        for (int i = chaine.length() - 1 ; i >= 0 ; i--)
+        {
+            inverseChaine = inverseChaine + chaine.charAt(i);
+        }
+        return inverseChaine;
+    }
     public static int nbrVoyelleDansChar(char[] tabChar)
     {
         String voyelles = "aouiyeAOUIYE";
@@ -22,8 +33,6 @@ public class Exemple1 {
         }
         return compteurVoyelles;
     }
-
-
     public static char[] decoupeString(String chaine)
     {
         char[] chaineChar = new char[chaine.length()];
