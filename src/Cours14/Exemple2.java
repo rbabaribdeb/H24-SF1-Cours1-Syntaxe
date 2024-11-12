@@ -5,7 +5,7 @@ public class Exemple2 {
 
         int[] tab1 = {0,2,5,55,26,2,57,4,1,5,5,4,6,64,0,0,0,0,0,1,2,2};
         //Affichage avant
-      //  afficheTab(tab1);
+        afficheTab(tab1);
         System.out.println(returnAfficheTab(tab1));
 
     }
