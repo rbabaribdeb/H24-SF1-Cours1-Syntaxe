@@ -27,10 +27,11 @@ public class Exemple1 {
         {
             if ( voyelles.indexOf(tabChar[i]) != -1) // tabChar[i] == 'a' || tabChar[i] == 'o'...
             {
+               // System.out.print(tabChar[i]);
                 compteurVoyelles++;
             }
-
         }
+       // System.out.println();
         return compteurVoyelles;
     }
     public static char[] decoupeString(String chaine)
