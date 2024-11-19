@@ -18,7 +18,7 @@ public class Aide1 {
         {
             sum = sum + tab[i];
         }
-        moyenne = sum / tab.length;
+        moyenne = (double)sum / tab.length;
         return moyenne;
     }
 
