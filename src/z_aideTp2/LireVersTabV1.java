@@ -1,4 +1,4 @@
-package Cours15_Fichiers;
+package z_aideTp2;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -37,7 +37,6 @@ public class LireVersTabV1
     {
       //  System.out.println("nbr lignes : " + nbrLignes());
         int [] tab = lireVersTab();
-
         afficheTab(tab);
     }
 }
